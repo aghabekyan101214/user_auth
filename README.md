@@ -1,10 +1,10 @@
 # Aznavour
 
     Python version >= 3.10
-    1 Make venv python3 -m venv /var/envs/aznavour_venv
+    1 Make venv python3 -m venv /var/envs/user_auth
     
     # Activate ENV
-    2 source /var/envs/aznavour_venv/bin/activate
+    2 source /var/envs/user_auth/bin/activate
 
     # Install requirements
     3 pip install -r requirements.txt
