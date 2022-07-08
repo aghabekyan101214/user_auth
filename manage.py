@@ -10,7 +10,7 @@ def main():
     if os.path.isfile(os.path.join(os.path.dirname(__file__), ".env")):
         dotenv.read_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'aznavour.settings.' + os.environ.get("ENVIRONMENT"))
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'user_auth.settings.' + os.environ.get("ENVIRONMENT"))
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
