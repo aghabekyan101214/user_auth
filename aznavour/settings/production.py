@@ -1,0 +1,5 @@
+from .base import *
+
+DEBUG = False
+
+INSTALLED_APPS = INSTALLED_APPS + THIRD_PARTY_APPS + PROJECT_APPS
